@@ -1,0 +1,21 @@
+.container{
+    /* display: flex; */
+    text-align: center;
+}
+.navbar1{
+    text-align: center;
+}
+.home{
+    background-color: blue;
+    /* padding:10%;s */
+    border-radius: 5px;
+}
+.news{
+    background-color: red;
+}
+.contact{
+    background-color: green;
+}
+.about{
+    background-color: purple;
+}

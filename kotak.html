@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.kotak1{
+height: 200px;
+width: 200px;
+background-color: hotpink;
+padding: 100px;
+z-index: 1;
+/* top, right, bottom, left */
+}
+.kotak2{
+height: 50px;
+width: 400px;
+background-color: red;
+z-index: 2;
+
+}
+.test{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 70%;
+}
+.test1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 70%; 
+    
+}
+
+.test1:hover{
+background-color: yellow;
+transform: scale(1.2);
+transform: scaleX(1.2);
+transform: rotate(60 deg)
+}
+/* p:first-child{
+    background-color: chartreuse;
+}
+p:last-child{
+    background-color: indigo;
+}
+li:nth-child(4){
+    background-color: brown;
+} */
+div:nth-of-type(4){
+    background-color: antiquewhite;
+}
+    </style>
+</head>
+<body>
+    <div class="kotak1">
+        <div class="test">
+            <div class="test1">
+            </div>
+        </div>
+    </div>
+    <div class="kotak2"></div>
+
+        <h1>last child dan first child</h1>
+    <div>
+        <p>galbi</p>
+        <p>difah</p>
+        <p>nadifah</p>
+        <p>dip</p>
+    </div>
+        <h1>nth-child</h1>
+        <ol>
+            <li>riri</li>
+            <li>inna</li>
+            <li>dipa</li>
+            <li>ucang</li>
+            <li>pa'ang</li>
+        </ol>
+        <h1>nth-of-type</h1>
+        <div>
+            <p>galbi</p>
+            <p>nadifah</p>
+            <p>difah</p>
+        </div>
+
+</body>
+</html>
